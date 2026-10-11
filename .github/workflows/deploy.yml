@@ -55,8 +55,8 @@ jobs:
 
       - name: Compute PDF filename from resume.yaml basics.name
         run: |
-          ruby -ryaml -e '
-            resume = YAML.safe_load(File.read("resume.yaml")) || {}
+          ruby -ryaml -rdate -e '
+            resume = YAML.safe_load(File.read("resume.yaml"), permitted_classes: [Date]) || {}
             slug = resume.dig("basics", "name").to_s.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-+|-+$/, "")
             slug = "resume" if slug.empty?
             pdf = "#{slug}.pdf"
