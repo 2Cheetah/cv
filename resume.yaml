@@ -5,6 +5,7 @@ basics:
   label: Software Engineering Lead | Agile Leadership
   image: images/profile.jpeg
   email: den.safiullin@gmail.com
+  phone: "+601139010316"
   url: https://www.linkedin.com/in/this-is-denis-safiullin
   summary: Software Engineering Lead with a strong track record of leading cross-functional teams,
     driving delivery across product and engineering domains, and introducing Agile and AI-augmented
@@ -19,6 +20,9 @@ basics:
   - network: LinkedIn
     username: this-is-denis-safiullin
     url: https://www.linkedin.com/in/this-is-denis-safiullin
+  - network: GitHub
+    username: 2Cheetah
+    url: https://github.com/2Cheetah
 work:
 - name: Deriv
   url: https://deriv.com
@@ -126,22 +130,15 @@ skills:
   - OpenTelemetry
   - Agile Retrospectives
 languages:
-- language: Russian
-  fluency: Native or Bilingual
 - language: English
   fluency: Full Professional
+- language: Russian
+  fluency: Native
 - language: German
   fluency: Limited Working
-certifications:
-- name: "Agile Software Development: Scrum for Developers"
-- name: "ChatGPT for Engineers"
-- name: "Scrum: The Basics"
-- name: "Communication Foundations"
-  year: 2018
-- name: "Agile at Work: Getting Better with Agile Retrospectives"
 education:
 - institution: Samara State Aerospace University
   area: Hydraulics and Fluid Power, Pneumatics, Automatization
   studyType: Master's degree
-  startDate: 2006
-  endDate: 2012
+  startDate: 2006-09-01
+  endDate: 2012-07-01
