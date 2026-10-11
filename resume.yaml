@@ -1,179 +1,144 @@
 ---
 "$schema": https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
 basics:
-  name: Kirill Sysoev
-  label: Platform Engineer
+  name: Denis Safiullin
+  label: Software Engineering Lead | Agile Leadership
   image: images/profile.jpeg
-  email: k.sysoev@me.com
-  phone: "+60194877054"
-  url: https://ksysoev.github.io
-  summary: Platform Engineer with a strong backend engineering background,
-    specializing in internal developer platforms, cloud-native infrastructure, 
-    and distributed systems. I build self-service platform capabilities that improve developer experience,
-    increase engineering autonomy, and enable teams to deliver software reliably at scale. 
-    Experienced in technical leadership, platform architecture, 
-    and designing systems that balance simplicity, scalability, and operational excellence.
+  email: den.safiullin@gmail.com
+  phone: "+601139010316"
+  url: https://www.linkedin.com/in/this-is-denis-safiullin
+  summary: Software Engineering Lead with a strong track record of leading cross-functional teams,
+    driving delivery across product and engineering domains, and introducing Agile and AI-augmented
+    practices that improve productivity, quality, and operational reliability. Experienced in
+    workflow automation, team leadership, stakeholder alignment, and building scalable services for
+    global digital products.
   location:
-    city: Nha Trang
-    region: Khanh Hoa
-    countryCode: VN
+    city: Cyberjaya
+    region: Selangor
+    countryCode: MY
   profiles:
   - network: LinkedIn
-    username: kirill-sysoev
-    url: https://www.linkedin.com/in/kirill-sysoev
+    username: this-is-denis-safiullin
+    url: https://www.linkedin.com/in/this-is-denis-safiullin
   - network: GitHub
-    username: ksysoev
-    url: https://github.com/ksysoev
+    username: 2Cheetah
+    url: https://github.com/2Cheetah
 work:
 - name: Deriv
   url: https://deriv.com
-  position: Staff Engineer
-  location: Cyberjaya, Malaysia / Limassol, Cyprus
-  startDate: 2024-07
-  endDate: 2026-05
-  summary: Established and led platform engineering initiatives for a new trading platform,
-    defining the integration architecture and delivering shared self-service capabilities
-    for service communication, API exposure, and external developer enablement.
+  position: Software Engineering Team Lead
+  location: Cyberjaya, Selangor, Malaysia
+  startDate: 2023-12
+  endDate: Present
+  summary: Lead a cross-functional team spanning backend, DevOps, and product ownership across multiple product domains while driving execution, platform reliability, and engineering excellence.
   highlights:
-  - Established platform products for service-to-service authentication,
-    event-driven communication, and API gateways, enabling application teams to build and operate services independently.
-  - Implemented the platforms through a GitOps operating model, allowing teams to provision,
-    configure, and deploy integrations without direct platform team involvement.
-  - Built a custom Go-based API gateway platform on AWS ECS with authentication,
-    caching, routing, traffic management, observability, and deployment automation.
-  - Planned and executed the migration of 100% of production API traffic from a commercial API gateway to the in-house platform with no service disruption.
-  - Scaled the gateway platform to process 30M+ requests per day while reducing API gateway costs from over $12,000/month to approximately $400/month.
-  - Added audit logging and standardized request contracts across distributed systems,
-    improving traceability, operational visibility, and troubleshooting for cross-service workflows.
-- name: CyberOwl
-  url: https://cyberowl.io
-  position: Lead Software Developer
-  location: Remote 
-  startDate: 2024-03
-  endDate: 2024-06
-  summary: Implemented a vessel inventory management platform with Go and React.
+  - Launched a reliable, high-performance workflow automation platform as an in-house replacement for PaaS tools such as n8n and Nintex; it served 1.5M workflow runs with ~100% success in under three months.
+  - Introduced AI-augmented SDLC tooling and practices to improve delivery quality, engineering productivity, and team efficiency.
+  - Delivered a Campaign Tagging Service that enabled personalized advertisement attribution across the trading platform using UTM parameters captured at registration.
+  - Designed and built a Notifications Service from scratch for in-app and push notifications across the trading platform.
+  - Automated the P2P dispute escalation process end-to-end, reducing manual effort and improving service and support efficiency.
+  - Established observability standards across owned services using OpenTelemetry to improve visibility, supportability, and production maturity.
+  - Drove structured peer review practices and mentored engineers to strengthen technical quality and delivery consistency.
+  - Worked closely with international product and engineering stakeholders across multiple markets to align roadmap priorities and delivery plans.
 - name: Deriv
   url: https://deriv.com
-  position: Staff Engineer
-  location: Cyberjaya, Malaysia
-  startDate: 2023-01
-  endDate: 2024-03
-  summary: Led technical design and delivery for high-priority, business-critical initiatives,
-    combining system design, hands-on engineering, performance optimization, and production reliability work.
+  position: Scrum Master
+  location: Cyberjaya, Selangor, Malaysia
+  startDate: 2023-03
+  endDate: Present
+  summary: Facilitated Agile delivery practices and coached the team on self-organization, backlog refinement, continuous improvement, and predictable execution.
   highlights:
-  - Led development initiatives for business-critical projects, keeping technical execution
-    aligned with organizational priorities.
-  - Established RFC processes and review governance for critical features, including
-    system design documentation for complex platform changes.
-  - Produced detailed design specifications for integrating a new trading platform into
-    the Deriv ecosystem.
-  - Drove performance optimization and stability improvements across critical platform
-    components to improve reliability, including resolving major API gateway bottlenecks
-    that significantly reduced delays in delivering market data to clients.
-  - Diagnosed and resolved production issues while authoring and reviewing technical standards
-    to guide consistent architectural decisions.
-- name: Deriv
-  url: https://deriv.com
-  position: Team Lead
-  location: Cyberjaya, Malaysia
-  startDate: 2020-03
-  endDate: 2023-01
-  summary: Scaled a backend engineering team while improving delivery processes, technical
-    governance, production resilience, and talent development.
-  highlights:
-  - Managed a backend team of up to 14 engineers, improving delivery lifecycle efficiency through
-    process improvements, prioritization, and technical guidance.
-  - Collaborated with stakeholders to align backend solutions with business priorities for
-    trading platform enhancements.
-  - Contributed to the Deriv BeSquare program by creating backend curriculum and mentoring
-    emerging IT talent.
+  - Facilitated Scrum ceremonies including daily stand-ups, sprint planning, demos, retrospectives, and backlog refinement.
+  - Guided the development team on Agile practices, self-organization, and continuous improvement.
+  - Acted as a servant leader, removing blockers and helping the team deliver value effectively.
+  - Partnered with Product Owners to align backlog priorities with business impact.
+  - Promoted Agile principles across teams and stakeholders to increase transparency, accountability, and delivery focus.
+  - Monitored team metrics such as velocity and capacity to support data-driven planning and execution.
 - name: Deriv
   url: https://deriv.com
   position: Backend Developer
-  location: Cyberjaya, Malaysia
-  startDate: 2019-09
-  endDate: 2020-03
-  summary: Implemented backend platform features and P2P payment services while supporting code
-    quality and trading infrastructure reliability.
+  location: Cyberjaya, Selangor, Malaysia
+  startDate: 2023-02
+  endDate: 2023-12
+  summary: Contributed to backend platform development while supporting product delivery and engineering quality across team initiatives.
+- name: Gestamp
+  url: https://www.gestamp.com
+  position: Project Manager
+  location: Kaluga Metropolitan Area
+  startDate: 2018-02
+  endDate: 2022-09
+  summary: Managed complex automotive projects for major clients, including planning, execution, risk control, budget oversight, and cross-functional team leadership.
   highlights:
-  - Developed and deployed P2P payment services that expanded financial transaction
-    capabilities on the platform.
-- name: REG.RU
-  url: https://www.reg.ru
-  position: Senior Software Engineer
-  location: Remote 
-  startDate: 2017-08
-  endDate: 2019-07
-  summary: Maintained and extended backend systems for a large-scale domain registrar and hosting platform, covering caching, authentication, asynchronous processing, email, and partner integrations.
-- name: uCoz
-  url: https://www.ucoz.com
-  position: Web Developer
-  location: Saint Petersburg, Russian Federation
-  startDate: 2016-08
+  - Led launch of complex projects for OEM clients including VW, Ford, König Modulo Ru, and KAMAZ.
+  - Managed internal and customer project plans, budgets, change control, risk mitigation, and project reporting.
+  - Led a team of 7 professionals with distributed accountability and clear delivery ownership.
+- name: Fujikura Automotive Russia
+  url: https://www.fujikura.co.jp
+  position: Lead Engineer, Project Manager
+  location: Russia, Cheboksary
+  startDate: 2017-09
+  endDate: 2018-02
+  summary: Managed engineering operations, project setup, and process standardization for automotive manufacturing initiatives.
+  highlights:
+  - Led engineering department planning and startup for VW-related initiatives.
+  - Implemented Kanban to improve flow, visibility, and operational efficiency.
+  - Standardized engineering processes to improve productivity and consistency.
+- name: Fujikura Automotive Russia
+  url: https://www.fujikura.co.jp
+  position: Lead Engineer
+  location: Russian Federation, Cheboksary
+  startDate: 2015-05
   endDate: 2017-08
-  summary: Enhanced a large-scale SaaS CMS platform and built high-throughput crawler tooling for market research across millions of websites.
-- name: HOST
-  url: https://hostco.ru/
-  position: Lead System Engineer
-  location: Saint Petersburg, Russian Federation
-  startDate: 2008-03
-  endDate: 2015-12
-  summary: Modernized enterprise infrastructure, virtualization, backup, storage, and disaster recovery capabilities for business-critical environments.
+  summary: Managed engineering workflows and process improvement initiatives in a manufacturing environment.
+- name: Delphi
+  url: https://www.delphi.com
+  position: Process Engineer
+  location: Russia
+  startDate: 2013-07
+  endDate: 2015-04
+  summary: Improved manufacturing process quality and operational performance across wire cutting, twisting, and crimping operations.
+  highlights:
+  - Owned process performance for wire cutting, wire twisting, and crimping.
+  - Monitored and improved process compliance and output quality.
 skills:
-- name: Platform Engineering
+- name: Leadership & Delivery
   keywords:
-  - GitOps
-  - API Gateway
-  - Event Bus
-  - Authentication & Authorization 
-  - Developer Experience
-- name: Cloud & Infrastructure
-  keywords:
-  - AWS CloudFormation
-  - AWS ECS
-  - AWS EventBridge
-  - AWS Lambda
-  - AWS Cognito
-- name: Backend & Distributed Systems
-  keywords:
-  - Go
-  - Redis
-  - PostgreSQL
-  - OpenTelemetry
-  - Message Queueis
-- name: Architecture & Technical Leadership
-  keywords:
-  - Event-Driven Architecture
-  - Domain-Driven Design
-  - Technical Strategy
   - Team Leadership
+  - Agile Leadership
+  - Scrum Facilitation
+  - Cross-functional Leadership
   - Stakeholder Management
+- name: Product & Engineering Execution
+  keywords:
+  - Workflow Automation
+  - AI-augmented SDLC
+  - Observability
+  - Backend Systems
+  - Service Design
+- name: Platform & Operations
+  keywords:
+  - AWS
+  - DevOps
+  - Infrastructure Support
+  - Monitoring
+  - Process Improvement
+- name: Tools & Practices
+  keywords:
+  - Claude Code
+  - Claude Skills
+  - Claude Code Subagents
+  - OpenTelemetry
+  - Agile Retrospectives
 languages:
 - language: English
   fluency: Full Professional
 - language: Russian
   fluency: Native
-projects:
-- name: Make It Public
-  url: https://make-it-public.dev
-  description: Go reverse proxy and tunneling service for securely exposing private/local services to the public internet.
-  highlights:
-  - Created a client/server architecture that routes public HTTP and TCP traffic to services running behind NAT or private networks.
-  - Added secure token-based authentication and TLS-enabled deployment options for safer public exposure of local services.
-  - Packaged the tool for practical developer workflows with Docker, Homebrew, prebuilt releases, CI, and automated tests.
-  keywords:
-  - Go
-  - Reverse Proxy
-  - Tunneling
-  - TLS
-- name: wsget
-  url: https://github.com/ksysoev/wsget
-  description: Go CLI for interactive WebSocket testing, scripting, and debugging.
-  highlights:
-  - Implemented an interactive WebSocket client supporting text, JSON, and binary messages with optional session output capture.
-  - Implemented terminal editing features including request history, fuzzy search, autocomplete, and keyboard-driven workflows.
-  keywords:
-  - Go
-  - CLI
-  - WebSocket
-  - Developer Tools
+- language: German
+  fluency: Limited Working
+education:
+- institution: Samara State Aerospace University
+  area: Hydraulics and Fluid Power, Pneumatics, Automatization
+  studyType: Master's degree
+  startDate: 2006-09-01
+  endDate: 2012-07-01
