@@ -1,5 +1,5 @@
 ---
-"$schema": https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+"$schema": schema.json
 basics:
   name: Denis Safiullin
   label: Software Engineering Lead | Agile Leadership
@@ -29,7 +29,7 @@ work:
   position: Software Engineering Team Lead
   location: Cyberjaya, Selangor, Malaysia
   startDate: 2023-12
-  endDate: 2026-10
+  endDate: present
   summary: Lead a cross-functional team spanning backend, DevOps, and product ownership across multiple product domains while driving execution, platform reliability, and engineering excellence.
   highlights:
   - Launched a reliable, high-performance workflow automation platform as an in-house replacement for PaaS tools such as n8n and Nintex; it served 1.5M workflow runs with ~100% success in under three months.
@@ -45,7 +45,7 @@ work:
   position: Scrum Master
   location: Cyberjaya, Selangor, Malaysia
   startDate: 2023-03
-  endDate: 2026-10
+  endDate: present
   summary: Facilitated Agile delivery practices and coached the team on self-organization, backlog refinement, continuous improvement, and predictable execution.
   highlights:
   - Facilitated Scrum ceremonies including daily stand-ups, sprint planning, demos, retrospectives, and backlog refinement.

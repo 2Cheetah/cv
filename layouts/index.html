@@ -293,7 +293,7 @@
                 {{ $company }}
               {{ end }}
             </div>
-            <div class="meta">{{ .startDate }} — {{ .endDate }}</div>
+            <div class="meta">{{ .startDate }} — {{ if eq .endDate "present" }}Present{{ else }}{{ .endDate }}{{ end }}</div>
           </div>
           <div class="meta">{{ .location }}</div>
           {{ with .summary }}<p>{{ . }}</p>{{ end }}
