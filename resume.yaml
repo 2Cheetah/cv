@@ -2,12 +2,12 @@
 "$schema": schema.json
 basics:
   name: Denis Safiullin
-  label: Software Engineering Lead | Agile Leadership
+  label: Back End Developer
   image: images/profile.jpeg
   email: den.safiullin@gmail.com
   phone: "+601139010316"
   url: https://www.linkedin.com/in/this-is-denis-safiullin
-  summary: Software Engineering Lead with a strong track record of leading cross-functional teams,
+  summary: Back End Developer and Software Engineering Lead with a strong track record of leading cross-functional teams,
     driving delivery across product and engineering domains, and introducing Agile and AI-augmented
     practices that improve productivity, quality, and operational reliability. Experienced in
     workflow automation, team leadership, stakeholder alignment, and building scalable services for
@@ -20,15 +20,12 @@ basics:
   - network: LinkedIn
     username: this-is-denis-safiullin
     url: https://www.linkedin.com/in/this-is-denis-safiullin
-  - network: GitHub
-    username: 2Cheetah
-    url: https://github.com/2Cheetah
 work:
 - name: Deriv
   url: https://deriv.com
-  position: Software Engineering Team Lead
+  position: Back End Developer
   location: Cyberjaya, Selangor, Malaysia
-  startDate: 2023-12
+  startDate: 2023-02
   endDate: present
   summary: Lead a cross-functional team spanning backend, DevOps, and product ownership across multiple product domains while driving execution, platform reliability, and engineering excellence.
   highlights:
@@ -40,27 +37,6 @@ work:
   - Established observability standards across owned services using OpenTelemetry to improve visibility, supportability, and production maturity.
   - Drove structured peer review practices and mentored engineers to strengthen technical quality and delivery consistency.
   - Worked closely with international product and engineering stakeholders across multiple markets to align roadmap priorities and delivery plans.
-- name: Deriv
-  url: https://deriv.com
-  position: Scrum Master
-  location: Cyberjaya, Selangor, Malaysia
-  startDate: 2023-03
-  endDate: present
-  summary: Facilitated Agile delivery practices and coached the team on self-organization, backlog refinement, continuous improvement, and predictable execution.
-  highlights:
-  - Facilitated Scrum ceremonies including daily stand-ups, sprint planning, demos, retrospectives, and backlog refinement.
-  - Guided the development team on Agile practices, self-organization, and continuous improvement.
-  - Acted as a servant leader, removing blockers and helping the team deliver value effectively.
-  - Partnered with Product Owners to align backlog priorities with business impact.
-  - Promoted Agile principles across teams and stakeholders to increase transparency, accountability, and delivery focus.
-  - Monitored team metrics such as velocity and capacity to support data-driven planning and execution.
-- name: Deriv
-  url: https://deriv.com
-  position: Backend Developer
-  location: Cyberjaya, Selangor, Malaysia
-  startDate: 2023-02
-  endDate: 2023-12
-  summary: Contributed to backend platform development while supporting product delivery and engineering quality across team initiatives.
 - name: Gestamp
   url: https://www.gestamp.com
   position: Project Manager
