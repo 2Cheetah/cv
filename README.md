@@ -17,8 +17,11 @@ Your site will be available at:
 ## What to edit
 
 - `resume.yaml` — all resume content (name, summary, work, projects, skills, links)
+- `schema.json` — the local JSON Resume schema; `work[].endDate` accepts `present` for current roles
 - `layouts/index.html` — page layout and styling
 - `config.yaml` — Hugo site config
+
+The local schema is based on [JSON Resume Schema v1.0.0](https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json), with `present` accepted only for `work[].endDate`.
 
 ## Local preview
 
